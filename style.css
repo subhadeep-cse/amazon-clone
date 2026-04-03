@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    font-family:Arial;
+    box-sizing:border-box;
+}
+.navbar{
+    height: 65px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+
+}
+.nav-logo{
+    height:60px;
+    width:110px;
+}
+.logo{
+    background-image: url("amazonlogo.webp");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+
+.p1{
+    font-size:0.80rem;
+}
+.p2{
+    font-size:1rem;
+}
+.icon
+{
+    display:flex;
+    align-items: center;
+    
+
+}
