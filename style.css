@@ -27,9 +27,13 @@
 }
 .logo{
     background-image: url("amazonlogo.webp");
-    background-size: cover;
+    background-size:145%;
+    background-position:center;
+    background-repeat:no-repeat;
     height:50px;
     width:114px;
+    align-items: center;;
+    
 }
 
 .border:hover{
@@ -55,6 +59,7 @@
     display:flex;
     align-items: center;
     gap:4px;
+   
     
 
 }
@@ -113,4 +118,24 @@
 .cart{
     font-size:15px;
     font-weight:700;
+}
+.panel{
+    display:flex;
+    height:40px;
+    background-color:#222f3d;
+    color:white;
+    align-items:center;
+    width:100%;
+    justify-content: space-evenly;
+      
+}
+.options{
+    width:90%;
+    font-size:1rem;
+     margin-left:10px;
+}
+.options p
+{
+    display:inline;
+    margin-left:10px;
 }
