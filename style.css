@@ -174,8 +174,11 @@
     padding:20px 0px 15px; 
 }
 .image-box{
-    height:90%;
-    background-size: cover;
+    height:290px;
+   background-size:cover;
+   background-position:center;
+   margin-top:10px;
+   margin-bottom:10px;
 }
 .box-content
 {
