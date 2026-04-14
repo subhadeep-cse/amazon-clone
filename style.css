@@ -59,9 +59,6 @@
     display:flex;
     align-items: center;
     gap:4px;
-   
-    
-
 }
 .search{
     display:flex;
@@ -77,7 +74,6 @@
 }
     
 .search-select{
-
     height:35px;
     width:50px;
     text-align:center;
@@ -228,4 +224,53 @@ ul a
 }
 ul a:hover{
     text-decoration: underline;
+}
+.panel3
+{
+    background-color: #222f3d;
+    color:white;
+    border-top:0.5px solid white;
+    display:flex;
+    justify-content:space-evenly;
+}
+.logo1{
+    background-image: url("amazonlogo.webp");
+    background-size:145%;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:50px;
+    width:114px;
+    margin-top:10px;
+    
+}
+.converter-bar {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+select {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  border: 1px solid gray;
+  font-size: 14px;
+}
+.panel4
+{
+    background-color:#0f1111;
+    color:white;
+    height:78px;
+    font-size: 0.7rem;
+    text-align:center;
+
+}
+.pages{
+    padding-top:20px;
+}
+.copyright
+{
+    padding-top:5px;
 }
