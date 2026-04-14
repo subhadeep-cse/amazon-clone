@@ -194,3 +194,38 @@
     margin-right:1rem;
     
 }
+footer{
+    margin-top:10px;
+}
+.panel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel2{
+    background-color: #222f3d;
+    color: white;
+    height:300px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+ul p
+{
+    margin-top:10px;
+    font-size: 16px;
+}
+ul a
+{
+    display:block;
+    margin-top:10px;
+    color:#dddddd;
+    text-decoration: none;
+    font-size:14px;
+}
+ul a:hover{
+    text-decoration: underline;
+}
